@@ -48,6 +48,7 @@ ul {
     justify-content: center;
     flex-grow: 1;
     align-items: center;
+    flex-direction: column;
 }
 .header {
     display: flex;
@@ -58,5 +59,9 @@ ul {
 }
 h1 {
     font-size: 8vw;
+}
+.header__content p {
+    font-size: 3vw;
+    color: white;
 }
 /* header end */
